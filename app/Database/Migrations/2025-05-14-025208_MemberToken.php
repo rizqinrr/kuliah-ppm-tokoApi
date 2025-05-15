@@ -34,11 +34,11 @@ class MemberToko extends Migration
             ],
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('member_toko');
+        $this->forge->createTable('member_token');
     }
 
     public function down()
     {
-        $this->forge->dropTable('member_toko');
+        $this->forge->dropTable('member_token');
     }
 }

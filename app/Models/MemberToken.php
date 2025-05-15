@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class MemberToko extends Model
+class MemberToken extends Model
 {
-    protected $table            = 'member_toko';
+    protected $table            = 'member_token';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $allowedFields    = ['member_id', 'auth_key'];
